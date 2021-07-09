@@ -6,8 +6,9 @@
 
 Nesse projeto utilizei:
 
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/)
+- HTML
+- CSS
+- JavaScript
 
 ### Exercício praticado
 
