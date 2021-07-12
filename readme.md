@@ -20,3 +20,5 @@ Nesse projeto utilizei:
 - [x] Diferença entre Flex e Gird
 
 - [x] Lógica simples de JavaScript
+
+- [x] Upgrades
