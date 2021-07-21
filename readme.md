@@ -1,6 +1,5 @@
 # BeautySalon #
 
-<img src="./assets/img/exp-desktop.png">
 <img src="./assets/img/exp-mobile.png">
 
 ### 🛠 Technology's 
