@@ -1,6 +1,7 @@
 # BeautySalon #
 
-<img src="./assets/img/exp.png">
+<img src="./assets/img/exp-desktop.png">
+<img src="./assets/img/exp-mobile.png">
 
 ### 🛠 Technology's 
 
@@ -12,13 +13,18 @@ Nesse projeto utilizei:
 
 ### Exercício praticado
 
-- [x] Estruturação do HTML
-- [x] Importância da semântica HTML
+- [ ] HTML
+- [x] Importância da semântica no HTML
 
-- [x] Estilização com CSS
-- [x] Utilização de Variáveis
-- [x] Diferença entre Flex e Gird
+- [ ] CSS
+- [x] Introdução a variáveis
+- [x] Diferenças entre display: 'Flex & Gird'
+- [x] Responsividade
 
-- [x] Lógica simples de JavaScript
+- [ ] JavaScript
+- [x] Funcionalidade do menu 
+- [x] Carousel Slider
+- [x] ScrollReveal
+- [x] ButtonBackToTop
 
-- [x] Upgrades
+## Esse projeto foi desenvolvido no NextLevelWeek-Together da Rocketseat trilha Origin com o professor MaykBrito

@@ -1,4 +1,4 @@
-/*====  RESET ============================ */
+/* =============================  RESET ============================ */
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +18,7 @@ img {
   height: auto;
 }
 
-/*====  VARIABLES ============================ */
+/* ==========================  VARIABLES ============================ */
 :root {
   --header-height: 4.5rem;
 
@@ -32,22 +32,28 @@ img {
   --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
   --body-color: hsl(0 0% 98%);
+
+  /* fonts */
+  --title-font-size: 1.875rem;
+  --subtitle-font-size: 1rem;
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'DM Sans', sans-serif;
 }
 
-/*===  BASE ============================ */
+/* ==============================  BASE ============================ */
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font: 400 1rem 'DM Sans', sans-serif;
+  font: 400 1rem var(--body-font);
   color: var(--text-color);
   background: var(--body-color);
   -webkit-font-smoothing: antialiased;
 }
 
 .title {
-  font: 700 1.875rem 'Poppins', sans-serif;
+  font: 700 var(--title-font-size) var(--title-font);
   color: var(--title-color);
   -webkit-font-smoothing: auto;
 }
@@ -60,7 +66,7 @@ body {
   align-items: center;
   padding: 0 2rem;
   border-radius: 0.25rem;
-  font: 500 1rem 'DM Sans', sans-serif;
+  font: 500 1rem var(--body-font);
   transition: background 0.3s;
 }
 
@@ -86,7 +92,7 @@ body {
   );
 }
 
-/*====  LAYOUT ============================ */
+/* ============================  LAYOUT ============================ */
 .container {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -130,13 +136,11 @@ body {
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
 }
 
-main {
-  margin-top: calc(var(--header-height) + 2rem);
-}
 
-/*====  LOGO ============================ */
+
+/* ===============================  LOGO ============================ */
 .logo {
-  font: 700 1.31rem 'Poppins', sans-serif;
+  font: 700 1.31rem var(--title-font);
   color: var(--title-color);
 }
 
@@ -144,11 +148,11 @@ main {
   color: var(--base-color);
 }
 
-.logo-alt span{
+.logo-alt span {
   color: var(--body-color);
 }
 
-/*====  NAVIGATION ============================ */
+/* =========================  NAVIGATION ============================ */
 nav {
   height: var(--header-height);
   display: flex;
@@ -166,11 +170,11 @@ nav ul li a {
   position: relative;
 }
 
-nav ul li a:hover {
+nav ul li a:hover{
   color: var(--base-color);
 }
 
-nav ul li a::after {
+nav ul li a::after  {
   content: '';
   width: 0%;
   height: 2px;
@@ -183,7 +187,8 @@ nav ul li a::after {
   transition: width 0.2s;
 }
 
-nav ul li a:hover::after {
+nav ul li a:hover::after,
+nav ul li a.active:after {
   width: 100%;
 }
 
@@ -248,7 +253,7 @@ nav.show div.icon-close {
   top: 1.5rem;
 }
 
-/*====  HOME ============================ */
+/* =============================  HOME ============================ */
 #home {
   overflow: hidden;
 }
@@ -296,7 +301,7 @@ nav.show div.icon-close {
   margin-bottom: 2rem;
 }
 
-/*====  ABOUT ============================ */
+/* ==========================  ABOUT ============================ */
 #about {
   background: white;
 }
@@ -334,7 +339,7 @@ nav.show div.icon-close {
   margin-right: 1.5rem;
 }
 
-/*====  SERVICES ============================ */
+/* =========================  SERVICES ============================ */
 .cards.grid {
   gap: 1.5rem;
 }
@@ -359,14 +364,9 @@ nav.show div.icon-close {
   margin-bottom: 0.75rem;
 }
 
-/*====  TESTIMONIALS ============================ */
+/* ========================  TESTIMONIALS ========================= */
 #testimonials {
   background: white;
-}
-
-#testimonials .container {
-  margin-left: 0;
-  margin-right: 0;
 }
 
 #testimonials header {
@@ -410,7 +410,7 @@ nav.show div.icon-close {
   margin-right: 0.5rem;
 }
 
-/* ============== swiper ===============*/
+/* swiper */
 .swiper-slide {
   height: auto;
   padding: 4rem 1rem;
@@ -425,7 +425,7 @@ nav.show div.icon-close {
   background: var(--base-color);
 }
 
-/*====  CONTACT ============================ */
+/* ======================  CONTACT ============================ */
 #contact .grid {
   gap: 4rem;
 }
@@ -453,8 +453,7 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
-
-/* ===== FOOTER ===== */
+/* ========================  FOOTER ============================ */
 footer {
   background: var(--base-color);
 }
@@ -474,38 +473,18 @@ footer i {
   color: var(--text-color-light);
 }
 
+footer .social {
+  grid-auto-flow: column;
+  width: fit-content;
+}
+
 footer .social a {
-  margin-right: 2rem;
   transition: 0.3s;
   display: inline-block;
 }
 
 footer .social a:hover {
-  transform: translateY(-10px );
+  transform: translateY(-8px);
 }
 
-/* ===== BACK TO UP ===== */
-.back-to-top {
-  position: fixed;
-  right: 1rem;
-  bottom: 1rem;
-  padding: 0.5rem;
-  font-size: 1.5rem;
-  line-height: 0;
-  clip-path: circle();
-  visibility: hidden;
-  transition:0.3s;
-  transform: translateY(100%);
-  opacity: 0;
 
-  background: var(--base-color);
-  color: var(--text-color-light);
-}
-
-.back-to-top.show{
-  visibility: visible;
-  opacity: 1;
-  transform: translateY(0)
-}
-
-/* ==== Responsive ==== */
