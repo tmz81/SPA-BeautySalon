@@ -1,24 +1,26 @@
 # BeautySalon #
 
-<img src="./assets/img/exp-desktop.png">
+<img src="./public/assets/img/Início.jpg">
+<img src="./public/assets/img/Depoimentos.jpg">
+<img src="./public/assets/img/Contato.jpg">
 
 ### 🛠 Technology's 
-
-Nesse projeto utilizei:
 
 - HTML
 - CSS
 - JavaScript
+- NodeJS
 
 ### Exercício praticado
 
 - HTML
-- [x] Importância da semântica no HTML
+- [x] Introdução ao HTML
+- [x] Estrutura
 
 - CSS
 - [x] Introdução a variáveis
 - [x] Diferenças entre display: 'Flex & Gird'
-- [x] Responsividade
+- [ ] Responsividade
 
 - JavaScript
 - [x] Funcionalidade do menu 
@@ -26,5 +28,9 @@ Nesse projeto utilizei:
 - [x] ScrollReveal
 - [x] ButtonBackToTop
 
+- NodeJS
+- [x] Introdução ao node_modules
+- [x] Json
+- [x] Express
+- [x] Nodemon
 
-Esse projeto foi desenvolvido no NextLevelWeek-Together da Rocketseat trilha Origin com o professor MaykBrito

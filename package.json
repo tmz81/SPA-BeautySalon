@@ -1,0 +1,23 @@
+{
+  "name": "origin-nlw",
+  "version": "1.0.0",
+  "description": "<img src=\"./assets/img/exp-desktop.png\">",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmz81/BeautySalon-NLW-Together.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmz81/BeautySalon-NLW-Together/issues"
+  },
+  "homepage": "https://github.com/tmz81/BeautySalon-NLW-Together#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
