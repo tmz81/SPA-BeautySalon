@@ -1,10 +1,13 @@
 const express = require('express');
-const server = express();
+const path = require('path');
+const app = express();
 
-//Route request para files static como img/scripts/css
-server.use(express.static('/public'))
+app.set('views', path.join(__dirname, 'views'))
 
-/* Final catch-all rotas para index.html antes de definir */
-server.get('/', (req, res) => res.sendFile(__dirname + '/views/index.html'))
+// Use files statics CSS/JS/IMG
+app.use(express.static('public'))
 
-server.listen(3000, () => console.log('🚀'))
+// Route home
+app.get('/', (req, res) => res.render('index.ejs'))
+
+app.listen(3000, () => console.log('🚀'))

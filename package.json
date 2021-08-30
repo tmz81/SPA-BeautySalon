@@ -2,9 +2,9 @@
   "name": "origin-nlw",
   "version": "1.0.0",
   "description": "<img src=\"./assets/img/exp-desktop.png\">",
-  "main": "main.js",
+  "main": "./src/server.js",
   "scripts": {
-    "start": "node ./src/server.js"
+    "start": "nodemon ."
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/tmz81/BeautySalon-NLW-Together#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }

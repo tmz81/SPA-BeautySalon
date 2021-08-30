@@ -1,8 +1,10 @@
 # BeautySalon #
 
-<img src="./public/assets/img/Início.jpg">
-<img src="./public/assets/img/Depoimentos.jpg">
-<img src="./public/assets/img/Contato.jpg">
+<p float="right">
+  <img width="60"src="./public/assets/img/img1.jpg">
+  <img width="60"src="./public/assets/img/img2.jpg">
+  <img width="60"src="./public/assets/img/img3.jpg">
+</p>
 
 ### 🛠 Technology's 
 
@@ -33,4 +35,5 @@
 - [x] Json
 - [x] Express
 - [x] Nodemon
+- [x] EJS
 
