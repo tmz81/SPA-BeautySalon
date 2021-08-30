@@ -25,10 +25,10 @@
 - [ ] Responsividade
 
 - JavaScript
-- [x] Funcionalidade do menu 
-- [x] Carousel Slider
+- [x] Menu Hamburguer 
+- [x] Carrossel Slider
 - [x] ScrollReveal
-- [x] ButtonBackToTop
+- [x] Botão voltar ao topo
 
 - NodeJS
 - [x] Introdução ao node_modules
