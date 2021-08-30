@@ -1,9 +1,9 @@
 # BeautySalon #
 
 <p float="right">
-  <img width="100"src="./public/assets/img/img1.jpg">
-  <img width="100"src="./public/assets/img/img2.jpg">
-  <img width="100"src="./public/assets/img/img3.jpg">
+  <img width="140"src="./public/assets/img/img1.jpg">
+  <img width="140"src="./public/assets/img/img2.jpg">
+  <img width="140"src="./public/assets/img/img3.jpg">
 </p>
 
 ### 🛠 Technology's 
