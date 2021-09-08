@@ -1,39 +1,47 @@
-# BeautySalon #
-
-<p float="right">
-  <img width="140"src="./public/img/img1.jpg">
-  <img width="140"src="./public/img/img2.jpg">
-  <img width="140"src="./public/img/img3.jpg">
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-connect">Connect</a>
 </p>
 
-### 🛠 Technology's 
+<br>
 
-- HTML
+<p align="center">
+  <img alt="OriginSix" src=".github/preview.png" width="100%">
+</p>
+
+## 💻 Tecnologias
+
 - CSS
 - JavaScript
 - NodeJS
+- EJS
+- Express
 
-### Exercício praticado
+Bibliotecas
 
-- HTML
-- [x] Introdução ao HTML
-- [x] Estrutura
+- [Google Fonts](https://fonts.google.com/)
+- [SwipeJS](https://github.com/nolimits4web/Swiper)
+- [ScrollRevel](https://scrollrevealjs.org)
 
-- CSS
-- [x] Introdução a variáveis
-- [x] Diferenças entre display: 'Flex & Gird'
-- [ ] Responsividade
+Utilitários
 
-- JavaScript
-- [x] Menu Hamburguer 
-- [x] Carrossel Slider
-- [x] ScrollReveal
-- [x] Botão voltar ao topo
+- [randomuser.me](https://randomuser.me/photos)
+- [IconMoon](https://icomoon.io/app/#/select)
 
-- NodeJS
-- [x] Introdução ao node_modules
-- [x] Json
-- [x] Express
-- [x] Nodemon
-- [x] EJS
+## 📝 Projeto
 
+OriginSix é uma página institucional no formato One Page, responsiva, para usar em diversos tipos de micro, pequena e média empresas. Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/1009807319507822993/Origin-Six). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+## 📡 Connect
+
+Você pode utiliza/testar o projeto através  [desse link](ww)
+
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.

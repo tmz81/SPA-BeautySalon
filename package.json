@@ -2,7 +2,7 @@
   "name": "origin-nlw",
   "version": "1.0.0",
   "description": "<img src=\"./assets/img/exp-desktop.png\">",
-  "main": "./src/server.js",
+  "main": "src/server.js",
   "scripts": {
     "start": "nodemon ."
   },

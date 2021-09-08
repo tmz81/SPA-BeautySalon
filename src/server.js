@@ -10,4 +10,4 @@ app.use(express.static('public'))
 // Route home
 app.get('/', (req, res) => res.render('index.ejs'))
 
-app.listen(3000, () => console.log('🚀'))
+app.listen(process.env.PORT || 5000)
