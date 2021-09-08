@@ -40,7 +40,7 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 ## 📡 Connect
 
-Você pode utiliza/testar o projeto através  [desse link](ww)
+Você pode utiliza/testar o projeto através  [desse link](https://originsix.herokuapp.com/)
 
 ## 📝 Licença
 
