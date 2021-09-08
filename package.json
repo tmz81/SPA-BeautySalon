@@ -4,7 +4,7 @@
   "description": "<img src=\"./assets/img/exp-desktop.png\">",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon ."
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
