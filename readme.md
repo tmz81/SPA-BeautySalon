@@ -13,11 +13,10 @@
 
 ## 💻 Tecnologias
 
+- HTML
 - CSS
 - JavaScript
 - NodeJS
-- EJS
-- Express
 
 Bibliotecas
 
